@@ -31,8 +31,7 @@ function computerPick() {
     rockPaperScissors.computer = options[2];
   }
 
-
-  return options[randomNumber];
+  return rockPaperScissors.computer;
 }
 
 function selectWinner(player, computer) {
